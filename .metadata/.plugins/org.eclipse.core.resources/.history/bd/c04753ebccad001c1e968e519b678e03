@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Polygon triangle = FactoryPolygon.createPolygon(3);
+		System.out.println(String.format("%S - %S", 3, triangle.getDescription()));
+
+		
+
+	}
+}

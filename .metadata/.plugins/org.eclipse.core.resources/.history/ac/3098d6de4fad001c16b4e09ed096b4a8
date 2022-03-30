@@ -1,0 +1,15 @@
+package br.com.factory;
+
+public class Main {
+	
+	private static String tipo;
+
+	public static void main(String[]args) {
+		HamburguerFactoryJp hfj = new HamburguerFactoryJp();
+		hfj.criarHamburguer(tipo:"NegoNey");
+		
+		Hamburguer NegoNey = hfj.entrega();
+		
+	}
+
+}

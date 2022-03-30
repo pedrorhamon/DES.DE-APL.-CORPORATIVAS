@@ -1,0 +1,11 @@
+
+public class Square extends Polygon {
+
+	public Square() {
+		super(Description());
+	}
+
+	public String Description() {
+		return "Square";
+	}
+}

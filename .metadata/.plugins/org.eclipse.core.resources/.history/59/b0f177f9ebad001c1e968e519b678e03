@@ -1,0 +1,23 @@
+package model;
+
+public class Cliente {
+	private String nome;
+	private String endereco;
+	private String profissao;
+	private String estadoCivil;
+	
+	private Cliente() {}
+	
+	public static Cliente builder() {
+		return new Cliente();
+	}
+	public Cliente nome(String nome) {
+		this.nome = nome;
+		return this;
+	}
+	public Cliente endereco(String endereco) {
+		this.endereco = endereco;
+		return this;
+	}
+	
+}

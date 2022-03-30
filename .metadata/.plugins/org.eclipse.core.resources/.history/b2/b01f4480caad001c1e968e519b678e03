@@ -1,0 +1,7 @@
+
+public class Square extends Polygon {
+
+	public String Description() {
+		return "Square";
+	}
+}

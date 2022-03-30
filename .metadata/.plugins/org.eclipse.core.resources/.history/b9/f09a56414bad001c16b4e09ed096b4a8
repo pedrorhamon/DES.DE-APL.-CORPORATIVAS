@@ -1,0 +1,9 @@
+package br.com.factory;
+
+public class Hamburgueria {
+	
+	private Hamburguer hamburguer;
+	
+	public void fazerHamburguer (String tipo, String bairro) {
+};
+

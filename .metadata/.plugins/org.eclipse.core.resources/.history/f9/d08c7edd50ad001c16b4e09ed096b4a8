@@ -1,0 +1,20 @@
+package br.com.factory;
+
+public class HamburguerFactoryJp extends HamburguerFactory{
+	
+	private NegoNey hamburguer1;
+	private BigodinFinin hamburguer2;
+	private CabelinaRegua hamburguer;
+	
+	public void criarHamburguer(String tipo) {
+		if(tipo.equals("NegoNey")) {
+			this.hamburguer1 = new NegoNey();
+		}
+		else if(tipo.equals("BigodinFinin")) {
+			this.hamburguer2 = new BigodinFinin();
+		}
+		else if (tipo.equals("CabelinaRegua")) {
+			this.hamburguer = new CabelinaRegua();
+		}
+	};
+}

@@ -1,0 +1,25 @@
+package br.com.factory;
+
+public class Hamburgueria {
+	
+	public String tipo;
+	
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Hamburgueria [tipo=" + tipo + "]";
+	}
+
+
+	private Hamburguer hamburguer;
+	
+	public void fazerHamburguer (String tipo, String bairro) {}
+
+};

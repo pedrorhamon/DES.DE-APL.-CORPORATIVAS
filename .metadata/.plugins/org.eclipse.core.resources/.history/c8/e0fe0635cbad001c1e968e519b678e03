@@ -1,0 +1,12 @@
+
+public class Pentagon extends Polygon{
+
+	public Pentagon() {
+		super(description());
+		
+	}
+
+	public String getDescription() {
+		return "Pentagon";
+	}
+}

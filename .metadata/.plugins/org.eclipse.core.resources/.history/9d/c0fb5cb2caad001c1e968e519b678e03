@@ -1,0 +1,12 @@
+
+public class Triangle extends Polygon{
+
+	public Triangle(String description) {
+		super(description);
+	
+	}
+
+	public String Description() {
+		return "Triangle";
+	}
+}

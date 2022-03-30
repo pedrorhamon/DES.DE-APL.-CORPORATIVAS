@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\marco\Desktop\eclipse\Avaliação-01\.metadata\.plugins\org.eclipse.jdt.core
+1485121983.index
+2960682302.index
+3814551627.index
+3461136891.index
+2615129196.index
